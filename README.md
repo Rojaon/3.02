@@ -96,11 +96,13 @@ I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.F
 
 
 2.Aircraft table the primary key is Aircraft field
-|Aircraft         |	Total Aircraft Seats	|
-|-----------------|---------------|
-|Boeing 747|400|
-|Airbus A330|236|
-|Boeing 777	|264|
+|Flight Number	|Aircraft|	Total Aircraft Seats	|
+|---------------|--------|------------------------|
+|DL143	|Boeing 747|	400|
+|DL122	|Airbus A330|236|
+|DL53	|Boeing 777	|264|
+|DL222|	Boeing 777	|264|
+|DL37	|Boeing 747	|400	|
 
 
 3.Flight table the primary key is Flight Number field
