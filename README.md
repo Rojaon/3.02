@@ -17,7 +17,7 @@
 2.Normalize the following airline database:
 
 |Customer Name	  |Customer Status|Flight Number	|Aircraft|	Total Aircraft Seats	|Flight Mileage	|Total Customer Mileage|
-|-----------------|---------------|----------|-----|
+|-----------------|---------------|---------------|--------|--------|--------|--------|
 |Agustine Riviera	|Silver	|DL143	|Boeing |747|	400|	135	|115235|
 |Agustine Riviera	|Silver|	DL122	|Airbus| A330|236|	4370	|115235|
 |Alaina Sepulvida	|None|	DL122|	Airbus |A330|	236	|4370	|6008|
