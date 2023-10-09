@@ -6,7 +6,7 @@
 |author          |title                |word count|views|
 |----------------|---------------------|----------|-----|
 |Maria Charlotte|Best Paint Colors|814|14|
-|Juan Perez	Small|Space Decorating|Tips|1146|221|
+|Juan Perez	Small|Space Decorating Tips|1146|221|
 |Maria Charlotte|Hot Accessories|986|105|
 |Maria Charlotte|Mixing Textures|765|22|
 |Juan Perez|Kitchen Refresh|1242|307|
