@@ -13,6 +13,22 @@
 |Maria Charlotte|Homemade Art Hacks|1002|193|
 |Gemma Alcocer|Refinishing Wood Floors|1571|7542|
 
+1NF (First Normal Form):
+It's already in the first Normalization form.
+2NF (Second Normal Form):
+I'm going to add a primary key field which will be id, there is no need to separate the table.
+
+|id|author          |title                |word count|views|
+|--|----------------|---------------------|----------|-----|
+|1 |Maria Charlotte|Best Paint Colors|814|14|
+|2 |Juan Perez	Small|Space Decorating Tips|1146|221|
+|3 |Maria Charlotte|Hot Accessories|986|105|
+|4 |Maria Charlotte|Mixing Textures|765|22|
+|5 |Juan Perez|Kitchen Refresh|1242|307|
+|6 |Maria Charlotte|Homemade Art Hacks|1002|193|
+|7 |Gemma Alcocer|Refinishing Wood Floors|1571|7542|
+
+
 ---
 2.Normalize the following airline database:
 
