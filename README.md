@@ -14,9 +14,13 @@
 |Gemma Alcocer|Refinishing Wood Floors|1571|7542|
 
 1NF (First Normal Form):
+
 It's already in the first Normalization form.
+
 2NF (Second Normal Form):
+
 I'm going to add a primary key field which will be id, there is no need to separate the table.
+
 
 |id|author          |title                |word count|views|
 |--|----------------|---------------------|----------|-----|
