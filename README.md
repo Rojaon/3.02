@@ -80,11 +80,11 @@ I removed the duplicate entries.
 
 2NF (Second Normal Form):
 
-I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.Flight table. And add a primary key field which will be id int the customer table.
+I will separate the table into two tables: 1.Customer table 2.Flight table.
 
-1.Customer table
-|id|Customer Name	  |Customer Status|Total Customer Mileage|
-|--|-----------------|---------------|----------------------|
+1.Customer table primary key id field
+|id|Customer Name	  |Customer Status|Total Customer Mileage|Flight Number|
+|--|-----------------|---------------|----------------------|---------------------|
 |1 |Agustine Riviera	|Silver	|115235|
 |2 |Alaina Sepulvida	|None|6008|
 |3 |Tom Jones	|Gold	|205767|
@@ -95,22 +95,14 @@ I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.F
 |8 |Christian Janco|	Silver	|14642|
 
 
-2.Aircraft table the primary key is Aircraft field
-|Aircraft	|Flight Number|	Total Aircraft Seats	|
-|-----------|-------------|-----------------------|
-|Boeing 747	|DL143|	400|
-|Airbus A330|DL122|236|
-|Boeing 777	|DL53	|264|
-|Boeing 777|DL222	|264|
-|Boeing 747	|DL37	|400	|
+2.Flight table the primary key is Flight Number
+|Flight Number|Flight Mileage	|	Aircraft|Total Aircraft Seats	|
+|-------------|---------------|---------|---------------------|
+|DL143|135|Boeing 747	|	400|
+|DL122|4370|Airbus A330|236|
+|DL53	|2078|Boeing 777|264|
+|DL222|1765|Boeing 777|264|
+|DL37	|531|Boeing 747	|400|
 
 
-3.Flight table the primary key is Flight Number field
-|Flight Number	|Flight Mileage	|
-|---------------|---------------|
-|DL143	|	135	|
-|DL122	|	4370	|
-|DL53	|	2078	|
-|DL222|1765	|
-|DL37	|531	|
 
