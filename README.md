@@ -56,4 +56,28 @@ I'm going to add a primary key field which will be id, there is no need to separ
 |Sam Rio	|None	|DL37	|Boeing 747	|400	|531	|2653|
 |Christian Janco|	Silver	|DL222	|Boeing 777	|264	|1765	|14642|
 
+1NF (First Normal Form):
+
+|Customer Name	  |Customer Status|Flight Number	|Aircraft|	Total Aircraft Seats	|Flight Mileage	|Total Customer Mileage|
+|-----------------|---------------|---------------|--------|--------|--------|--------|
+|Agustine Riviera	|Silver	|DL143	|Boeing 747|	400|	135	|115235|
+|Agustine Riviera	|Silver|	DL122	|Airbus A330|236|	4370	|115235|
+|Alaina Sepulvida	|None|	DL122|	Airbus A330|	236	|4370	|6008|
+|Tom Jones	|Gold	|DL122|	Airbus A330|	236|	4370	|205767|
+|Tom Jones	|Gold|	DL53	|Boeing 777	|264|	2078	|205767|
+|Sam Rio	|None	|DL143|	Boeing 747|	400|	135|	2653|
+|Tom Jones	|Gold	|DL222|	Boeing 777	|264	|1765	|205767|
+|Jessica James	|Silver	|DL143	|Boeing 747|400	|135	|127656|
+|Ana Janco	|Silver|	DL222|	Boeing 777|	264|	1765	|136773|
+|Jennifer Cortez|	Gold|	DL222	|Boeing 777	|264	|1765	|300582|
+|Jessica James	|Silver	|DL122	|Airbus A330	|236|	4370	|127656|
+|Sam Rio	|None	|DL37	|Boeing 747	|400	|531	|2653|
+|Christian Janco|	Silver	|DL222	|Boeing 777	|264	|1765	|14642|
+
+I removed the duplicate entries.
+
+
+2NF (Second Normal Form):
+
+I'm going to add a primary key field which will be id, there is no need to separate the table.
 
