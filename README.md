@@ -105,7 +105,7 @@ I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.F
 
 3.Flight table the primary key is Flight Number field
 |Flight Number	|Flight Mileage	|
-|-----------------|---------------|---------------|--------|--------|--------|
+|---------------|---------------|
 |DL143	|	135	|
 |DL122	|	4370	|
 |DL53	|	2078	|
