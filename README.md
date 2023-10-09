@@ -18,22 +18,22 @@
 
 |Customer Name	  |Customer Status|Flight Number	|Aircraft|	Total Aircraft Seats	|Flight Mileage	|Total Customer Mileage|
 |-----------------|---------------|---------------|--------|--------|--------|--------|
-|Agustine Riviera	|Silver	|DL143	|Boeing |747|	400|	135	|115235|
-|Agustine Riviera	|Silver|	DL122	|Airbus| A330|236|	4370	|115235|
-|Alaina Sepulvida	|None|	DL122|	Airbus |A330|	236	|4370	|6008|
-|Agustine Riviera	|Silver|	DL143|	Boeing| 747|	400|	135	|115235|
-|Tom Jones	|Gold	|DL122|	Airbus| A330|	236|	4370	|205767|
-|Tom Jones	|Gold|	DL53	|Boeing |777	|264|	2078	|205767|
-|Agustine Riviera|	Silver	|DL143|	Boeing |747	|400|	135	|115235|
-|Sam Rio	|None	|DL143|	Boeing |747|	400|	135|	2653|
-|Agustine Riviera	|Silver	|DL143|	Boeing |747	|400	|135	|115235|
-|Tom Jones	|Gold	|DL222|	Boeing |777	|264	|1765	|205767|
-|Jessica James	|Silver	|DL143	|Boeing| 747|400	|135	|127656|
+|Agustine Riviera	|Silver	|DL143	|Boeing 747|	400|	135	|115235|
+|Agustine Riviera	|Silver|	DL122	|Airbus A330|236|	4370	|115235|
+|Alaina Sepulvida	|None|	DL122|	Airbus A330|	236	|4370	|6008|
+|Agustine Riviera	|Silver|	DL143|	Boeing 747|	400|	135	|115235|
+|Tom Jones	|Gold	|DL122|	Airbus A330|	236|	4370	|205767|
+|Tom Jones	|Gold|	DL53	|Boeing 777	|264|	2078	|205767|
+|Agustine Riviera|	Silver	|DL143|	Boeing 747	|400|	135	|115235|
+|Sam Rio	|None	|DL143|	Boeing 747|	400|	135|	2653|
+|Agustine Riviera	|Silver	|DL143|	Boeing 747	|400	|135	|115235|
+|Tom Jones	|Gold	|DL222|	Boeing 777	|264	|1765	|205767|
+|Jessica James	|Silver	|DL143	|Boeing 747|400	|135	|127656|
 |Sam Rio	|None|	DL143|	Boeing 747	|400	|135|	2653|
-|Ana Janco	|Silver|	DL222|	Boeing| 777|	264|	1765	|136773|
-|Jennifer Cortez|	Gold|	DL222	|Boeing |777	|264	|1765	|300582|
-|Jessica James	|Silver	|DL122	|Airbus| A330	|236|	4370	|127656|
-|Sam Rio	|None	|DL37	|Boeing |747	|400	|531	|2653|
-|Christian Janco|	Silver	|DL222	|Boeing| 777	|264	|1765	|14642|
+|Ana Janco	|Silver|	DL222|	Boeing 777|	264|	1765	|136773|
+|Jennifer Cortez|	Gold|	DL222	|Boeing 777	|264	|1765	|300582|
+|Jessica James	|Silver	|DL122	|Airbus A330	|236|	4370	|127656|
+|Sam Rio	|None	|DL37	|Boeing 747	|400	|531	|2653|
+|Christian Janco|	Silver	|DL222	|Boeing 777	|264	|1765	|14642|
 
 
