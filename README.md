@@ -83,16 +83,22 @@ I removed the duplicate entries.
 I will separate the table into two tables: 1.Customer table 2.Flight table.
 
 1.Customer table primary key id field
-|id|Customer Name	  |Customer Status|Total Customer Mileage|Flight Number|
-|--|-----------------|---------------|----------------------|---------------------|
-|1 |Agustine Riviera	|Silver	|115235|
-|2 |Alaina Sepulvida	|None|6008|
-|3 |Tom Jones	|Gold	|205767|
-|4 |Sam Rio	|None	|2653|
-|5 |Jessica James	|Silver	|127656|
-|6 |Ana Janco	|Silver|136773|
-|7 |Jennifer Cortez|	Gold|300582|
-|8 |Christian Janco|	Silver	|14642|
+|id|Customer Name	  |Customer Status|Flight Number	|Total Customer Mileage|
+|--|-----------------|---------------|---------------|----------------------|
+|1|Agustine Riviera	|Silver	       	|DL143      		|115235|
+|2|Agustine Riviera	|Silver       	|DL122      		|115235|
+|3|Alaina Sepulvida	|None         	|DL122        	|6008|
+|4|Tom Jones	      |Gold	        	|DL122        	|205767|
+|5|Tom Jones       	|Gold      	    |DL53         	|205767|
+|6|Sam Rio        	|None	        	|DL143        	|2653|
+|7|Tom Jones	      |Gold	        	|DL222        	|205767|
+|8|Jessica James  	|Silver      		|DL143        	|127656|
+|9|Ana Janco	      |Silver       	|DL222        	|136773|
+|10|Jennifer Cortez  |Gold         	|DL222        	|300582|
+|11|Jessica James  	|Silver      		|DL122        	|127656|
+|12|Sam Rio	        |None        		|DL37         	|2653|
+|13|Christian Janco  |Silver       	|DL222        	|14642|
+
 
 
 2.Flight table the primary key is Flight Number
