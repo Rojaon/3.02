@@ -56,6 +56,7 @@ I'm going to add a primary key field which will be id, there is no need to separ
 |Sam Rio	|None	|DL37	|Boeing 747	|400	|531	|2653|
 |Christian Janco|	Silver	|DL222	|Boeing 777	|264	|1765	|14642|
 
+
 1NF (First Normal Form):
 
 |Customer Name	  |Customer Status|Flight Number	|Aircraft|	Total Aircraft Seats	|Flight Mileage	|Total Customer Mileage|
@@ -79,5 +80,19 @@ I removed the duplicate entries.
 
 2NF (Second Normal Form):
 
-I'm going to add a primary key field which will be id, there is no need to separate the table.
+|Customer Name	  |Customer Status|Total Customer Mileage|
+|-----------------|---------------|----------------------|
+|Agustine Riviera	|Silver	|115235|
+|Agustine Riviera	|Silver|115235|
+|Alaina Sepulvida	|None|6008|
+|Tom Jones	|Gold	|205767|
+|Tom Jones	|Gold|205767|
+|Sam Rio	|None	|2653|
+|Tom Jones	|Gold	|205767|
+|Jessica James	|Silver	|127656|
+|Ana Janco	|Silver|136773|
+|Jennifer Cortez|	Gold|300582|
+|Jessica James	|Silver	|127656|
+|Sam Rio	|None	|2653|
+|Christian Janco|	Silver	|14642|
 
