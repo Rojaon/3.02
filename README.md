@@ -79,6 +79,7 @@ I removed the duplicate entries.
 
 
 2NF (Second Normal Form):
+
 I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.Flight table. And add a primary key field which will be id int the customer table.
 
 1.Customer table
@@ -94,7 +95,7 @@ I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.F
 |8 |Christian Janco|	Silver	|14642|
 
 
-2.Aircraft table
+2.Aircraft table the primary key is Aircraft field
 |Aircraft         |	Total Aircraft Seats	|
 |-----------------|---------------|
 |Boeing 747|400|
@@ -102,20 +103,12 @@ I will separate the table to three tables: 1.Customer table 2.Aircraft table 3.F
 |Boeing 777	|264|
 
 
-3.Flight table
-|Customer Name	  |Customer Status|Flight Number	|Aircraft|	Total Aircraft Seats	|Flight Mileage	|Total Customer Mileage|
-|-----------------|---------------|---------------|--------|--------|--------|--------|
-|Agustine Riviera	|Silver	|DL143	|Boeing 747|	400|	135	|115235|
-|Agustine Riviera	|Silver|	DL122	|Airbus A330|236|	4370	|115235|
-|Alaina Sepulvida	|None|	DL122|	Airbus A330|	236	|4370	|6008|
-|Tom Jones	|Gold	|DL122|	Airbus A330|	236|	4370	|205767|
-|Tom Jones	|Gold|	DL53	|Boeing 777	|264|	2078	|205767|
-|Sam Rio	|None	|DL143|	Boeing 747|	400|	135|	2653|
-|Tom Jones	|Gold	|DL222|	Boeing 777	|264	|1765	|205767|
-|Jessica James	|Silver	|DL143	|Boeing 747|400	|135	|127656|
-|Ana Janco	|Silver|	DL222|	Boeing 777|	264|	1765	|136773|
-|Jennifer Cortez|	Gold|	DL222	|Boeing 777	|264	|1765	|300582|
-|Jessica James	|Silver	|DL122	|Airbus A330	|236|	4370	|127656|
-|Sam Rio	|None	|DL37	|Boeing 747	|400	|531	|2653|
-|Christian Janco|	Silver	|DL222	|Boeing 777	|264	|1765	|14642|
+3.Flight table the primary key is Flight Number field
+|Flight Number	|Flight Mileage	|
+|-----------------|---------------|---------------|--------|--------|--------|
+|DL143	|	135	|
+|DL122	|	4370	|
+|DL53	|	2078	|
+|DL222|1765	|
+|DL37	|531	|
 
